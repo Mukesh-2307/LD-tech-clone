@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url("../Images/carousel/img2.jpg");
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 50%;
+    position: relative;
+    opacity: 1;
+}
+
+.About{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    /* color: #835088; */
+    color: white;
+    font-size: 7rem;
+    /* background-image: linear-gradient(to right, white , black); */
+    /* background-color: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: .25rem 1rem;
+}
+
+.count{
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.count-item{
+    color: white;
+    height: 20rem;
+    width: 20rem;
+    background-color: #835088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.count-item .Num{
+    font-size: 3rem;
+}
+
+.desc{
+    font-size: 2rem;
+}
+
+/* --------------------------------info-1 section----------------------------------- */
+
+.info-1{
+    display: flex;
+    /* position: relative; */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 1rem;
+    margin: 3rem;
+    font-size: x-large;
+    /* border-top: 1px solid black; */
+    background-color: #835088;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.info-content-1{
+    /* position: absolute; */
+    top: 10%;
+    left: 7%;
+    width: 50rem;
+}
+
+.info-content-1 h2, .info-content-1 div{
+    margin-bottom: 3rem;
+}
+
+.info-content-1 h2{
+    font-weight:bold;
+    font-size: 3.5rem;
+}
+
+.info-img-1{
+    background-image: url("../Images/carousel/img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 55rem;
+    width: 45rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.info{
+    font-size: 80%;
+}
+
+/* --------------------------------info-2 section -----------------------------------*/
+
+.info-img-2-1{
+    background-image: url("../Images/AboutPage/mission.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 25rem;
+    width: 35rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.info-img-2-2{
+    background-image: url("../Images/AboutPage/vision.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 25rem;
+    width: 35rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.info-2{
+    background-color: #835088;
+    padding: 3rem 1rem;
+    margin: 3rem;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.info-content-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-2-sub{
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    position: relative;
+}
+
+.info-2-sub .content{
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.info-2-sub .content h1{
+    border-right: 2px solid white;
+    margin-right: 2rem;
+    padding: 1.5rem;
+    font-weight:bold;
+    font-size: 5rem;
+}
+
+/* -------------------------------employee section ----------------------------------*/
+
+.cards-carousel{
+    background-color: #835088;
+    padding: 3rem 3rem;
+    margin: 3rem;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.cards-carousel h1{
+    color: white;
+}
+
+.card-map{
+    width: 25rem;
+    height: 30rem;
+    padding: .45rem;
+
+    border: none;
+    /* background: #4c2f4e; */
+    backdrop-filter: blur(10px);
+    color: white;
+    margin-top: 1rem;
+}
+
+.card-map img{
+    border: none;
+    border-radius: 5%;
+    height: 20rem;
+    width: 25rem;
+    margin-left: 1.5rem;
+}
+
+.card-title{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    padding: .45rem;
+}
+
+.card-text{
+    font-size: 1.2rem;
+}
+
+.card-heading{
+    margin-left: 2rem;
+    font-size: 4rem;
+}
+
+/* -------------------------------companies section ----------------------------------*/
+
+.companies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #835088;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 3rem 1rem;
+    margin: 3rem;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.company{
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #59365c;
+    backdrop-filter: blur(10px);
+    margin: 0 3rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.company-all{
+    display: grid;
+    grid-template-columns: repeat(4,max-content);
+    gap: 5rem;
+    width: 70%;
+    margin-top: 2.5rem;
+}
+
+.companies h1{
+    font-size: 5rem;
+}
+
+.company{
+    background-image: url("../Images/logoNew.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 50%;
+}
+
+.company h6{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}

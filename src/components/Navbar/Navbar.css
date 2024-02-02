@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header part css */
+
+.top-info {
+  background-color: #835088;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+  /* position: sticky; */
+  /* z-index: 1000; */
+  /* top: 0; */
+}
+
+.top-info > div {
+  margin: 0 4.5rem;
+}
+
+.top-info > div span {
+  margin-left: .75rem;
+}
+
+/* navbar part css */
+
+.navigationbar{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.menu{
+  width: 55rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.logo img{
+  height: 5rem;
+  width: 10rem;
+}
+
+.menu-item a, .dd button, .dd-menu{
+  color: #835088;
+}
+
+.dd.active > .link ,.menu-item a:hover, .menu-item button:hover{
+  color: #835088b0;
+}
+
+.menu-item{
+  margin-top: 1rem;
+}
+
+.menu-item a{
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.dd span{
+  margin-left: .5rem;
+  color: #835088;
+}
+
+
+
+/* dropdown section css */
+.dd{
+  position: relative;
+}
+
+.dd-menu{
+  position: absolute;
+  left: 0;
+  top: calc(100% + .75rem);
+  background-color: white;
+  padding: .75rem;
+  border-radius: .25rem;
+  box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  transform: translatey(-10px);
+  pointer-events: none;
+}
+
+.dd-menu a:not(:first-child){
+  border-top: 1px solid black;
+}
+
+.dd.active > .link + .dd-menu{
+  opacity: 1;
+  transform: translatey(0);
+  pointer-events: auto;
+}
+
+.dd button{
+  content: "";
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+/* .rough{
+  height: 200vh;
+  width: 100vw;
+} */

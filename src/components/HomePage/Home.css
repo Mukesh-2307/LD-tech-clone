@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img-1{
+    background-image: url("../../Images/carousel/img1.jpg");
+    background-position-x: center;
+    background-position-y: 50%;
+}
+
+.bg-img-2{
+    background-image: url("../../Images/carousel/img3.jpg");
+    background-position-x: center;
+    background-position-y: 20%;
+}
+
+.bg-img-3{
+    background-image: url("../../Images/carousel/img4.jpg");
+    background-position-x: center;
+    background-position-y: 35%;
+}
+
+.carousel-image{
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
