@@ -10,7 +10,7 @@ const About = () => {
     const settings = {
         dots: false,
         Infinity: true,
-        speed: 2000,
+        speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 3
     };
@@ -118,7 +118,7 @@ const About = () => {
 
                 </div>
             </div>
-            {/* ---------------------------employee section using owl carousel ---------------------------*/}
+            {/* ---------------------------employee section ---------------------------*/}
             <div className="cards-carousel">
                 <h1 className="font3 card-heading">Our leadership Teams</h1>
                 <div className="card">
@@ -139,7 +139,7 @@ const About = () => {
 
             {/* ---------------------------companies section ---------------------------*/}
 
-            <div className="companies ">
+            <div className="companies "> 
                 <h1 className='font3'>Clients</h1>
                 <div className="company-all font">
                     <div className='company'>
@@ -171,5 +171,5 @@ const About = () => {
         </>
     )
 }
-
+  
 export default About

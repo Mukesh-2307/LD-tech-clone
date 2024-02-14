@@ -4,58 +4,133 @@
   box-sizing: border-box;
 }
 
-ul{
-    margin: 0;
+.footer{
+  background-color: #835088;
 }
 
-.footer {
-  border-bottom: 2px solid white;
-  margin-top: 5%;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1);
+.name h1{
+  font-size: 4.5rem;
 }
 
-.foot-info {
-    background-color: #835088;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-    padding: 1.5rem;
-    width: 100%;
+.upper{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem;
+  color: white;
+}
+
+.upper a{
+  color: white;
+}
+
+.upper > div{
+  width: 20rem;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.connections h3{
+  margin: 1rem 0;
+}
+
+.connections h4{
+  margin-bottom: 2rem;
+}
+
+.socials{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: .5rem;
+}
+
+.icons{
+  margin-right: 2rem;
+}
+
+.socials svg{
+  height: 2rem;
+}
+
+/* ................ media queries ................ */
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .name h1{
+    font-size: 1rem;
   }
 
-.foot-info:first-child{
-    border-bottom: 2px solid white;
+  .upper{
+    flex-direction: column;
+    padding: 2rem;
+    position: relative;
+  }
+
+  #japan{
+    position: absolute;
+    bottom: 42%;;
+    left: 50%;
+  }
+
+  .contact{
+    margin: 0 .3rem;
+  }
+
+  .contact h3{
+    font-size: .75rem;
+  }
+
+  .email, .address {
+    font-size: .6rem;
+  }
+
+  .connections h4, .connections h3{
+    font-size: 1rem;
+  }
+
+  .connections h4{
+    margin-bottom: .1rem;
+  }
+
+  .connections a{
+    font-size: .75rem;
+  }
+  
 }
 
-.foot-info ul {
-  display: flex;
-  list-style: none;
-  padding: 2rem;
-}
+@media (max-width: 768px) and (min-width: 481px) {
+  .name h1{
+    font-size: 2rem;
+  }
 
-.foot-info ul li {
-  margin-right: 2rem;
-  font-size: 1.5rem;
-  padding: 0 2rem;
-}
+  .upper{
+    padding: 1.5rem;
+  }
 
-.foot-info ul li:not(:first-child) {
-  border-left: 2px solid white;
-}
+  .contact{
+    margin: 0 .5rem;
+  }
 
-.foot-info-1{
-  background-color: #835088;
-  color: white;
-  display: flex;
-  padding: 1.5rem;
-  width: 100%;
-  padding-left: 2rem;
-}
+  .contact h3{
+    font-size: 1rem;
+  }
 
-.foot-info-1 .email, .phone{
-  margin-left: 3rem;
-}
+  .email, .address {
+    font-size: .75rem;
+  }
 
-.foot-info-1 span{
-  margin-left: 1rem;
+  .connections h4, .connections h3{
+    font-size: 1rem;
+  }
+
+  .connections h4{
+    margin-bottom: 1rem;
+  }
+
+  .connections a{
+    font-size: .75rem;
+  }
 }

@@ -1,282 +1,617 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.banner{
-    background-image: url("../Images/carousel/img2.jpg");
-    height: 40rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: 50%;
-    position: relative;
-    opacity: 1;
+.banner {
+  background-image: url("../Images/carousel/img2.jpg");
+  height: 33.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 50%;
+  position: relative;
+  opacity: 1;
 }
 
-.About{
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    /* color: #835088; */
-    color: white;
-    font-size: 7rem;
-    /* background-image: linear-gradient(to right, white , black); */
-    /* background-color: rgb(0, 0, 0); */
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    padding: .25rem 1rem;
+.About {
+  position: absolute;
+  top: 10rem;
+  left: 35%;
+  color: white;
+  font-size: 7rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 0.25rem 1rem;
 }
 
-.count{
-    height: 30rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.count {
+  height: 25rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.count-item{
-    color: white;
-    height: 20rem;
-    width: 20rem;
-    background-color: #835088;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.count-item {
+  color: white;
+  height: 20rem;
+  width: 20rem;
+  background-color: #835088;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3rem;
 }
 
-.count-item .Num{
-    font-size: 3rem;
+.count-item .Num {
+  font-size: 3rem;
 }
 
-.desc{
-    font-size: 2rem;
+.desc {
+  font-size: 1.5rem;
 }
 
 /* --------------------------------info-1 section----------------------------------- */
 
-.info-1{
-    display: flex;
-    /* position: relative; */
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 3rem 1rem;
-    margin: 3rem;
-    font-size: x-large;
-    /* border-top: 1px solid black; */
-    background-color: #835088;
-    color: white;
-    border: none;
-    border-radius: 2rem;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+.info-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem 1rem;
+  margin: 3rem;
+  font-size: x-large;
+  background-color: #835088;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.info-content-1{
-    /* position: absolute; */
-    top: 10%;
-    left: 7%;
-    width: 50rem;
+.info-content-1 {
+  top: 10%;
+  left: 7%;
+  width: 50rem;
 }
 
-.info-content-1 h2, .info-content-1 div{
-    margin-bottom: 3rem;
+.info-content-1 h2,
+.info-content-1 div {
+  margin-bottom: 3rem;
 }
 
-.info-content-1 h2{
-    font-weight:bold;
-    font-size: 3.5rem;
+.info-content-1 h2 {
+  font-weight: bold;
+  font-size: 3.5rem;
 }
 
-.info-img-1{
-    background-image: url("../Images/carousel/img3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    height: 55rem;
-    width: 45rem;
-    border: none;
-    border-radius: 2rem;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+.info-img-1 {
+  background-image: url("../Images/carousel/img3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 55rem;
+  width: 30rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.info{
-    font-size: 80%;
+.info {
+  font-size: 80%;
 }
 
 /* --------------------------------info-2 section -----------------------------------*/
 
-.info-img-2-1{
-    background-image: url("../Images/AboutPage/mission.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    height: 25rem;
-    width: 35rem;
-    border: none;
-    border-radius: 2rem;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+.info-img-2-1 {
+  background-image: url("../Images/AboutPage/mission.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 25rem;
+  width: 35rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.info-img-2-2{
-    background-image: url("../Images/AboutPage/vision.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    height: 25rem;
-    width: 35rem;
-    border: none;
-    border-radius: 2rem;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+.info-img-2-2 {
+  background-image: url("../Images/AboutPage/vision.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 25rem;
+  width: 35rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.info-2{
-    background-color: #835088;
-    padding: 3rem 1rem;
-    margin: 3rem;
-    color: white;
-    border: none;
-    border-radius: 2rem;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+.info-2 {
+  background-color: #835088;
+  padding: 3rem 1rem;
+  margin: 3rem;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.info-content-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.info-content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.info-2-sub{
-    padding: 3rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    position: relative;
+.info-2-sub {
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
 }
 
-.info-2-sub .content{
-    width: 60%;
-    font-size: 1.5rem;
+.info-2-sub .content {
+  width: 60%;
+  font-size: 1.5rem;
 }
 
-.info-2-sub .content h1{
-    border-right: 2px solid white;
-    margin-right: 2rem;
-    padding: 1.5rem;
-    font-weight:bold;
-    font-size: 5rem;
+.info-2-sub .content h1 {
+  border-right: 2px solid white;
+  margin-right: 2rem;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 5rem;
 }
 
 /* -------------------------------employee section ----------------------------------*/
 
-.cards-carousel{
-    background-color: #835088;
-    padding: 3rem 3rem;
-    margin: 3rem;
-    border: none;
-    border-radius: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+.cards-carousel {
+  background-color: #835088;
+  padding: 3rem 3rem;
+  margin: 3rem;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
 }
-.card{
-    background-color: transparent;
-    border: none;
-}
-
-.cards-carousel h1{
-    color: white;
+.card {
+  background-color: transparent;
+  border: none;
 }
 
-.card-map{
-    width: 25rem;
-    height: 30rem;
-    padding: .45rem;
-
-    border: none;
-    /* background: #4c2f4e; */
-    backdrop-filter: blur(10px);
-    color: white;
-    margin-top: 1rem;
+.cards-carousel h1 {
+  color: white;
 }
 
-.card-map img{
-    border: none;
-    border-radius: 5%;
-    height: 20rem;
-    width: 25rem;
-    margin-left: 1.5rem;
+.card-map {
+  width: 25rem;
+  height: 30rem;
+  padding: 0.45rem;
+  border: none;
+  backdrop-filter: blur(10px);
+  color: white;
+  margin-top: 1rem;
 }
 
-.card-title{
-    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
-    padding: .45rem;
+.card-map img {
+  border: none;
+  border-radius: 5%;
+  height: 15rem;
+  width: 20rem;
+  margin-left: 1.5rem;
 }
 
-.card-text{
-    font-size: 1.2rem;
+.card-title {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  padding: 0.45rem;
 }
 
-.card-heading{
-    margin-left: 2rem;
-    font-size: 4rem;
+.card-text {
+  font-size: 1.2rem;
+}
+
+.card-heading {
+  margin-left: 2rem;
+  font-size: 4rem;
 }
 
 /* -------------------------------companies section ----------------------------------*/
 
-.companies{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #835088;
-    color: white;
-    border: none;
+.companies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #835088;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 3rem 1rem;
+  margin: 3rem;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.company {
+  height: 12rem;
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #59365c;
+  backdrop-filter: blur(10px);
+  margin: 0 3rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.company-all {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  gap: 3rem;
+  /* width: 100%; */
+  padding: 2rem;
+  margin-top: 2.5rem;
+}
+
+.companies h1 {
+  font-size: 5rem;
+}
+
+.company {
+  background-image: url("../Images/logoNew.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 50%;
+}
+
+.company h6 {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+/* .............................. media queries.............................. */
+
+@media (max-width: 480px) and (min-width: 320px) {
+  /* .............................. clients section .............................. */
+
+  .companies {
     border-radius: 2rem;
-    padding: 3rem 1rem;
-    margin: 3rem;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
-}
-
-.company{
-    height: 12rem;
-    width: 12rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #59365c;
-    backdrop-filter: blur(10px);
-    margin: 0 3rem;
-    border: none;
-    border-radius: 2rem;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-}
-
-.company-all{
-    display: grid;
-    grid-template-columns: repeat(4,max-content);
-    gap: 5rem;
-    width: 70%;
-    margin-top: 2.5rem;
-}
-
-.companies h1{
-    font-size: 5rem;
-}
-
-.company{
-    background-image: url("../Images/logoNew.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: 50%;
-}
-
-.company h6{
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0.5rem;
+  }
+
+  .company-all {
+    grid-template-columns: repeat(1, max-content);
+    gap: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .company {
+    height: 5rem;
+    width: 10rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .company h6 {
+    padding: 0.2rem;
+    font-size: 0.75rem;
+  }
+
+  .companies h1 {
+    font-size: 2rem;
+  }
+
+  /* ..................................... card carousel ..................................... */
+
+  .cards-carousel {
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem;
+    display: none;
+  }
+
+  .card-heading {
+    margin-left: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.25rem;
+  }
+
+  .card-map {
+    width: 25rem;
+    height: 3rem;
+    padding: 0.45rem;
+    border: none;
     backdrop-filter: blur(10px);
+    color: white;
+    margin-top: 1rem;
+  }
+
+  .card-map img {
+    border: none;
+    border-radius: 5%;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1.5rem;
+  }
+
+  .card-subtitle {
+    font-size: 0.5rem;
+  }
+
+  .card-title {
+    font-size: 0.25rem;
+  }
+
+  /* ................................... info-2 section ................................... */
+
+  .info-2 {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .info-2-sub .content h1 {
+    border: none;
+    font-weight: bold;
+    padding: 0;
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+
+  .info-2-sub .content {
+    font-size: 1rem;
+    width: 100%;
+    order: 2;
+  }
+
+  .info-img-2-1 {
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+  }
+
+  .info-img-2-2 {
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    order: 1;
+  }
+
+  .info-2-sub {
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  /* ................................... info-1 section ................................... */
+
+  .info-1 {
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-direction: column;
+  }
+
+  .info-img-1 {
+    height: 10rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    order: 1;
+  }
+
+  .info-content-1 h2 {
+    font-size: 2rem;
+  }
+
+  .info-content-1 .info {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+
+  .info-content-1 {
+    width: 100%;
+    order: 2;
+  }
+
+  /* ................................... count section ................................... */
+
+  .count {
+    height: 7rem;
+  }
+
+  .count-item {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .count-item .Num {
+    font-size: 1rem;
+  }
+
+  .desc {
+    font-size: 0.5rem;
+  }
+
+  /* ................................... banner section ................................... */
+  .About {
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+    font-size: 2rem;
+    padding: 0.25rem 1rem;
+  }
+
+  .banner {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  /* .............................. clients section .............................. */
+
+  .companies {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .company-all {
+    grid-template-columns: repeat(2, max-content);
+    gap: 5rem;
+    margin-top: 1rem;
+  }
+
+  .company {
+    height: 5rem;
+    width: 10rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .company h6 {
+    padding: 0.2rem;
+    font-size: 0.75rem;
+  }
+
+  .companies h1 {
+    font-size: 2rem;
+  }
+
+  /* ---------------------------card carousel ---------------------------*/
+
+  .cards-carousel {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .card-heading {
+    margin-left: 0.75rem;
+    font-size: 2rem;
+  }
+
+  .card-map img {
+    height: 10rem;
+    width: 12rem;
+    margin-left: 1.5rem;
+  }
+
+  .card-body h2 {
+    font-size: 0.9rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .card-map {
+    width: 100vw;
+    height: 25rem;
+  }
+
+  /* ................................... info-2 section ................................... */
+
+  .info-2 {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .info-2-sub .content h1 {
+    border-bottom: 2px solid white;
+    border-right: 0;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .info-2-sub .content {
+    font-size: 1rem;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .info-img-2-1 {
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+  }
+
+  .info-img-2-2 {
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+  }
+
+  .info-2-sub {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* ................................... info-1 section ................................... */
+
+  .info-1 {
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-direction: column;
+  }
+
+  .info-img-1 {
+    height: 30rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    order: 1;
+  }
+
+  .info-content-1 h2 {
+    font-size: 2rem;
+  }
+
+  .info-content-1 .info {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+
+  .info-content-1 {
+    width: 100%;
+    order: 2;
+  }
+
+  /* ................................... count section ................................... */
+
+  .count {
+    height: 7rem;
+    margin: 1rem;
+  }
+
+  .count-item {
+    height: 7rem;
+    width: 10rem;
+    padding: 2rem;
+  }
+
+  .count-item .Num {
+    font-size: 2rem;
+  }
+
+  .desc {
+    font-size: 0.75rem;
+  }
+
+  /* ................................... banner section ................................... */
+  .About {
+    position: absolute;
+    top: 8rem;
+    left: 20rem;
+    font-size: 2rem;
+    padding: 0.25rem 1rem;
+  }
+
+  .banner {
+    height: 20rem;
+  }
 }
